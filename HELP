@@ -1,0 +1,35 @@
+GraphMonkey - mono based graphing calculator
+Copyright (C) 2006 Lounis Bellabes
+nolius@users.sourceforge.net
+GPL license
+
+GraphMonkey is a mono based graphing calculator
+you need mono and gtk-sharp-2
+
+you can use:
++ , -, *, /
+square root : sqrt()
+powers : ^
+brackets
+sine : sin()
+cosine : cos()
+tangent : tan()
+arcsine : asin()
+arccosine : acos()
+arctangent : atan()
+hyperbolic sine : sinh()
+hyperbolic cosine : cosh()
+hyperbolic tangent : tan()
+natural logarithm: ln()
+base 10 logarithm: log()
+exponential : exp()
+absolute value:  abs()
+greatest integer: int()
+
+It is also possible to modify the range and to do some calculations.
+
+for exemple, you can try:
+sin(x)*x
+(sqrt(x)+5)*3
+2.3233^5*(x/cos(x))
+NOTE: replace "."  by "," if you use "," for decimal values in your country

@@ -1,0 +1,8 @@
+Basic Installation
+==================
+
+1. make
+2. mono GraphMonkey.exe
+
+and if you want to install it into your /usr/local/ (as root) :
+3. make install
