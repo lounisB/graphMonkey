@@ -24,10 +24,10 @@ using System;
 using Gtk;
 
 class MainClass {
-	public static void Main(string[] args)
-	{
-		Application.Init ();
-		new GraphMonkey ();
-		Application.Run ();
-	}
+    public static void Main(string[] args)
+    {
+        Application.Init ();
+        new GraphMonkey ();
+        Application.Run ();
+    }
 }
