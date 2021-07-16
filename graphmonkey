@@ -1,0 +1,2 @@
+#!/bin/sh
+mono /usr/local/share/graphmonkey/GraphMonkey.exe
