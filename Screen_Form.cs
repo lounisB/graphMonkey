@@ -45,7 +45,7 @@ class Screen_Form : DrawingArea
     private Gdk.GC gc_blue;
     private Gdk.GC gc_a;
     private Gdk.GC gc_black;
-    private    Gdk.GC gc_white;
+    private Gdk.GC gc_white;
     private Gdk.GC gc_gray;
     private Gdk.GC gc_cyan;
     private Gdk.GC gc_orange;
