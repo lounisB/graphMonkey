@@ -6,6 +6,6 @@ GraphMonkey is a GTK#-based graphing calculator. It uses a simple interface to d
 This software is written in C# with GTK#. It's cross-platform: it works on Linux and Windows using Mono
 GraphMonkey is under the gpl license.
 
-![alt text](http://graphmonkey.sourceforge.net/graphmonkey7.png)
+<div style="text-align:center"><img src="http://graphmonkey.sourceforge.net/graphmonkey7.png" /></div>
 
-![alt text](http://graphmonkey.sourceforge.net/graphmonkey8.png)
+<div style="text-align:center"><img src="http://graphmonkey.sourceforge.net/graphmonkey8.png" /></div>
