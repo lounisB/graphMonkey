@@ -181,113 +181,113 @@ public class operation : object{
                     if (this.text.StartsWith("(")){
                         this.op = "()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,1);                        //delete "(" in beginning 
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end        
+                        leftText = leftText.Remove(0,1);                        //delete "("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"      
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("sqrt(")){ // root square
                         this.op = "sqrt()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,5);                        //delete "sqrt(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,5);                        //delete "sqrt("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"                
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("cos(")){ // cos
                         this.op = "cos()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,4);                        //delete "cos(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,4);                        //delete "cos("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"               
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("sin(")){ // sin
                         this.op = "sin()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,4);                        //delete "sin(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,4);                        //delete "sin("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"             
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("tan(")){ // tan
                         this.op = "tan()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,4);                        //delete "tan(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,4);                        //delete "tan("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"               
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("ln(")){ // ln
                         this.op = "ln()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,3);                        //delete "ln(" in beginning
-                        leftText = leftText.Remove(leftText.Length -1, 1);      //delete ")" in end                
+                        leftText = leftText.Remove(0,3);                        //delete "ln("
+                        leftText = leftText.Remove(leftText.Length -1, 1);      //delete ")"              
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("log(")){ // log
                         this.op = "log()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,4);                        //delete "log(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,4);                        //delete "log("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"              
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("acos(")){ // acos
                         this.op = "acos()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,5);                        //delete "acos(" in beginningt
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,5);                        //delete "acos("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"            
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("asin(")){ // asin
                         this.op = "asin()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,5);                        //delete "asin(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,5);                        //delete "asin("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"              
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("atan(")){ // atan
                         this.op = "atan()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,5);                        //delete "atan(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //on supprime le ")" de la fin                
+                        leftText = leftText.Remove(0,5);                        //delete "atan("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //on supprime le ")"               
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("cosh(")){ // cosh
                         this.op = "cosh()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,5);                        //delete "cosh(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,5);                        //delete "cosh("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"               
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("sinh(")){ // sinh
                         this.op = "sinh()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,5);                        //delete "sinh(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,5);                        //delete "sinh("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"              
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("tanh(")){ // tanh
                         this.op = "tanh()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,5);                        //delete "tanh(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,5);                        //delete "tanh(
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"               
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("exp(")){ // exp
                         this.op = "exp()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,4);                        //delete "exp(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,4);                        //delete "exp("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"                
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("abs(")){ // abs
                         this.op = "abs()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,4);                        //delete "abs(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,4);                        //delete "abs("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"              
                         this.left = new operation(leftText);
                     }
                     else if (this.text.StartsWith("int(")){    // int
                         this.op = "int()";
                         string leftText = this.text;
-                        leftText = leftText.Remove(0,4);                        //delete "int(" in beginning
-                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")" in end                
+                        leftText = leftText.Remove(0,4);                        //delete "int("
+                        leftText = leftText.Remove(leftText.Length - 1, 1);     //delete ")"              
                         this.left = new operation(leftText);
                     }
                 }
