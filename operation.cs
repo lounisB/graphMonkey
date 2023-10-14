@@ -2,7 +2,7 @@
 * 26/11/2006 - 17:02
 *
 * GraphMonkey - mono based graphing calculator
-* Copyright (C) 2006 Lounis Bellabes
+* Copyright (C) 2006-2023 Lounis Bellabes
 * nolius@users.sourceforge.net
 *
 * This program is free software; you can redistribute it and/or

@@ -4,7 +4,7 @@ nolius@users.sourceforge.net
 GPL license
 
 GraphMonkey is a mono based graphing calculator
-you need mono and gtk-sharp-2
+you need mono and gtk-sharp-3
 
 you can use:
 + , -, *, /

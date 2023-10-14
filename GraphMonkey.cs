@@ -2,7 +2,7 @@
 * 26/11/2006 - 17:02
 *
 * GraphMonkey - mono based graphing calculator
-* Copyright (C) 2006 Lounis Bellabes
+* Copyright (C) 2006-2023 Lounis Bellabes
 * nolius@users.sourceforge.net
 *
 * This program is free software; you can redistribute it and/or
@@ -86,9 +86,7 @@ public class GraphMonkey : Window {
         
         bar.Append (help_menu_item);
         bar.ShowAll ();
-        
         vbox.PackStart(bar, true, true, 0);
-        
         
         // create a table 6 on 10
         Table tableLayout = new Table(6, 10, false);

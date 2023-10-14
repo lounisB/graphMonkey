@@ -2,7 +2,7 @@
 * 26/11/2006 - 17:02
 *
 * GraphMonkey - mono based graphing calculator
-* Copyright (C) 2006 Lounis Bellabes
+* Copyright (C) 2006-2023 Lounis Bellabes
 * nolius@users.sourceforge.net
 *
 * This program is free software; you can redistribute it and/or
@@ -28,7 +28,7 @@ public class About_Form : Window
     public About_Form () : base ("About")
     {
         this.Move(200,200);
-        this.SetDefaultSize (100, 300);
+        this.SetDefaultSize (100, 200);
         this.Resizable = false;
         Gdk.Pixbuf icon = new Gdk.Pixbuf(null, "gm.png");
         this.Icon = icon; 
@@ -43,7 +43,7 @@ public class About_Form : Window
         tableLayout.Attach(label_blank, 0, 1, 2, 3);
         
         //GraphMonkey
-        Label label_monkey = new Label("GraphMonkey 1.7");
+        Label label_monkey = new Label("GraphMonkey 2.0");
         tableLayout.Attach(label_monkey, 0, 1, 3, 4);
         
         //name
