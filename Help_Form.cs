@@ -39,7 +39,7 @@ public class Help_Form : Window
         tableLayout.Attach(label_blank4, 0, 1, 0, 1);
         
         //GraphMonkey
-        Label label_monkey = new Label("GraphMonkey 1.7");
+        Label label_monkey = new Label("GraphMonkey 2.0");
         tableLayout.Attach(label_monkey, 0, 1, 1, 2);
         
         //blank
